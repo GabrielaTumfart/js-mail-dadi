@@ -71,10 +71,15 @@ if (currentInvitati  ===  mailUtente) {
    if(accesoAutorizzato) {
     for(let i =0; i < mailInvitati.length; i++) {
         const currentInvitati = mailInvitati [i];
-        console.table(mailUtente);
 
+        if(currentInvitati = mailInvitati ){
+            accesoAutorizzato = true;
+            alert("Sei nella lista puoi accedere!");
 
+        } else {
+            alert("Non sei nella lista NON puoi accedere!");
 
+        }
 
     }
 
