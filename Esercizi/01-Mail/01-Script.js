@@ -48,23 +48,24 @@ console.table(mailInvitati);
 const mailUtente = prompt("Qual'è la tua e-mail?");
 console.table(mailUtente);
 
-let accesoAutorizzato = true;
+let accesoAutorizzato = false;
 
-for(let i= 0; i < mailInvitati.length; i++){
-const currentInvitati = mailInvitati [i]
+for(let i = 0; i < mailInvitati.length; i++) {
+const currentInvitati = mailInvitati [i];
 console.table(mailUtente);
 
-if (currentInvitati  ===  mailUtente){
+if (currentInvitati  ===  mailUtente) {
     accesoAutorizzato = true;
    console.log("Sei nella lista puoi accedere!");
 
-   else {
+} else {
     console.log("Non sei nella lista NON puoi accedere!");
    }
-   
-}
 
-}
+   }
+
+
+
 
 //* 5) OUTPUT
 
