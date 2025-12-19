@@ -56,10 +56,10 @@ console.table(mailUtente);
 
 if (currentInvitati  ===  mailUtente) {
     accesoAutorizzato = true;
-   console.log("Sei nella lista puoi accedere!");
+   alert("Sei nella lista puoi accedere!");
 
 } else {
-    console.log("Non sei nella lista NON puoi accedere!");
+    alert("Non sei nella lista NON puoi accedere!");
    }
 
    }
