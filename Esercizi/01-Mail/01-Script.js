@@ -45,7 +45,7 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 //TODO questa prima versione mi controlla tante volte. Dunque provo a fare una seconda versione.
 
 const mailInvitati = ["gabriela@invitato.it", "stefano@invitato.it", "artur@invitato.it","marco@invitato.it", "tiziano@invitato.it",];
-console.table(mailInvitati);
+/*console.table(mailInvitati);*/
 
 const mailUtente = prompt("Qual'è la tua e-mail?", "gabriela@invitato.it" );
 console.table(mailUtente);
@@ -76,10 +76,10 @@ if (currentInvitati  ===  mailUtente) {
             accesoAutorizzato = true;
             alert("Sei nella lista, puoi accedere!");
 
-        } else {
+        } /*else {
             alert("Non sei nella lista, NON puoi accedere!");
 
-        }
+        }*/
 
     }
 
@@ -91,4 +91,5 @@ if (currentInvitati  ===  mailUtente) {
 
 
 //* 5) OUTPUT
+console.table(mailInvitati);
 
