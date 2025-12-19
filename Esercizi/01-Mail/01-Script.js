@@ -42,6 +42,8 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 //* 4) ELABORAZIONE
 
+//TODO questa prima versione mi controlla tante volte. Dunque provo a fare una seconda versione.
+
 const mailInvitati = ["gabriela@invitato.it", "stefano@invitato.it", "artur@invitato.it","marco@invitato.it", "tiziano@invitato.it",];
 console.table(mailInvitati);
 
@@ -63,6 +65,8 @@ if (currentInvitati  ===  mailUtente) {
    }
 
    }
+
+   //
 
 
 
