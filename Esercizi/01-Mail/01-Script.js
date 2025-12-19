@@ -44,5 +44,7 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 const mailInvitati = ["gabriela@invitato.it", "stefano@invitato.it", "artur@invitato.it","marco@invitato.it", "tiziano@invitato.it",];
 console.table(mailInvitati);
+
+const mailUtente = prompt("Qual'è la tua e-mail?");
 //* 5) OUTPUT
 
