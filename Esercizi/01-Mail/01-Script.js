@@ -48,6 +48,7 @@ console.table(mailInvitati);
 const mailUtente = prompt("Qual'è la tua e-mail?");
 
 for(let i= 0; i < mailInvitati.length; i++);
+const currentInvitati = mailInvitati [i]
 console.table(mailUtente);
 
 //* 5) OUTPUT
