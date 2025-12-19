@@ -30,11 +30,14 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 //* 3) PSEUDO CODICE
 
-// 
-//
-
-
-
+// SE l'utente è nella lista degli invita
+//        puo accedere = true
+// ALTRIMENTI
+// Non può accedere = false
+// scorere la lista usando for
+// PER OGNI INVITATI
+//    SE la mail è uguale alla mail dell'utente
+//          allora stampo autorizzato ad accedere
 
 
 //* 4) ELABORAZIONE
