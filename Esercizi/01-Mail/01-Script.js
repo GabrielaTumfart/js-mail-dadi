@@ -46,5 +46,9 @@ const mailInvitati = ["gabriela@invitato.it", "stefano@invitato.it", "artur@invi
 console.table(mailInvitati);
 
 const mailUtente = prompt("Qual'è la tua e-mail?");
+
+for(let i= 0; i < mailInvitati.length; i++);
+console.table(mailUtente);
+
 //* 5) OUTPUT
 
