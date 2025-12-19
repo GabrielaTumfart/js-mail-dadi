@@ -25,21 +25,24 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 // Chiedere all'utente la sua e-mail
 // Devo controllare se la e-mail è presente nella lista
 // Stampare l'esito con ciclo for
-//! array NOT
+//! array includes non consentito
 
 
 //* 3) PSEUDO CODICE
 
 // SE l'utente è nella lista degli invita
 //        puo accedere = true
-// ALTRIMENTI
+//    ALTRIMENTI
 // Non può accedere = false
 // scorere la lista usando for
-// PER OGNI INVITATI
+//   PER OGNI INVITATI
 //    SE la mail è uguale alla mail dell'utente
 //          allora stampo autorizzato ad accedere
 
 
 //* 4) ELABORAZIONE
+
+const mailInvitati = ["gabriela@invitato.it", "stefano@invitato.it", "artur@invitato.it","marco@invitato.it", "tiziano@invitato.it",];
+console.table(mailInvitati);
 //* 5) OUTPUT
 
