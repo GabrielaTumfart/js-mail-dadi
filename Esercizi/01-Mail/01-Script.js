@@ -47,12 +47,12 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 const mailInvitati = ["gabriela@invitato.it", "stefano@invitato.it", "artur@invitato.it","marco@invitato.it", "tiziano@invitato.it",];
 console.table(mailInvitati);
 
-const mailUtente = prompt("Qual'è la tua e-mail?");
+const mailUtente = prompt("Qual'è la tua e-mail?", "gabriela@invitato.it" );
 console.table(mailUtente);
 
-/*let accesoAutorizzato = false;
+let accesoAutorizzato = false;
 
-for(let i = 0; i < mailInvitati.length; i++) {
+/*for(let i = 0; i < mailInvitati.length; i++) {
 const currentInvitati = mailInvitati [i];
 console.table(mailUtente);
 
@@ -68,16 +68,16 @@ if (currentInvitati  ===  mailUtente) {
 
    //TODO seconda versione
 
-   if(accesoAutorizzato) {
-    for(let i =0; i < mailInvitati.length; i++) {
+   if(!accesoAutorizzato) {
+    for (let i =0; i < mailInvitati.length; i++) {
         const currentInvitati = mailInvitati [i];
 
-        if(currentInvitati = mailInvitati ){
+        if(currentInvitati === mailInvitati ){
             accesoAutorizzato = true;
-            alert("Sei nella lista puoi accedere!");
+            alert("Sei nella lista, puoi accedere!");
 
         } else {
-            alert("Non sei nella lista NON puoi accedere!");
+            alert("Non sei nella lista, NON puoi accedere!");
 
         }
 
