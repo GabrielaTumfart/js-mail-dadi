@@ -1,3 +1,5 @@
+//* 1) TRACCIA
+
 /*
 Mail
 Crea una lista di email di invitati ad una festa.
@@ -7,5 +9,34 @@ stampa un messaggio appropriato sull’esito del controllo, utilizzando un ciclo
 Non è consentito usare nessun metodo proprio degli array (come includes, per esempio).
 Si può fare? Certo che si basta ragionare un po’.
 Nota: 
-Non è necessario provvedere alla validazione delle email
+Non è necessario provvedere alla validazione delle email.
+Consigli del giorno:
+scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
+javascript non fa nulla da solo, dobbiamo dirgli noi cosa vogliamo fare
+si ma noi cosa vogliamo fare?
+torniamo a scrivere in italiano
+proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 */ 
+
+
+//* 2) RACCOLTA DATI
+
+// Devo creare una lista di email
+// Chiedere all'utente la sua e-mail
+// Devo controllare se la e-mail è presente nella lista
+// Stampare l'esito con ciclo for
+//! array NOT
+
+
+//* 3) PSEUDO CODICE
+
+// 
+//
+
+
+
+
+
+//* 4) ELABORAZIONE
+//* 5) OUTPUT
+
